@@ -1,3 +1,5 @@
+API 26 ("Oreo; Android 8.0)
+
 RPG Leveling and Achievement System
 Overview
 This project is an Android RPG-themed leveling and achievement system designed for my college project. It features a dynamic leveling system, an achievement system tied to player levels, and an tavern menu for tips on dealing with adhd and task management. The project aims to provide a user-friendly and minimalist interface that enhances player engagement through rewards and progression tracking.
