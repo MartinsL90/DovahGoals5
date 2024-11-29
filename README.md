@@ -42,7 +42,7 @@ Android SDK
 Steps
 Clone the repository:
 
-git clone https://github.com/username/rpg-achievement-system.git
+git clone https://github.com/MartinsL90/DovahGoals5.git
 cd rpg-achievement-system
 
 Open the project in Android Studio.
