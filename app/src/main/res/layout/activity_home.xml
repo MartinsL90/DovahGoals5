@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pagebgcolor"
+    tools:context=".HomeActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="8"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sample name"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:id="@+id/userNameTv"
+                    />
+
+                <TextView
+                    android:id="@+id/maxLevelString"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingTop="8dp"/>
+                <ProgressBar
+                    android:id="@+id/xpProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="@+id/maxLevelString"
+                    android:progress="@+id/xpProgressBar"
+                    android:progressTint="@color/black"
+                    android:indeterminate="false"
+                    android:layout_marginTop="-30dp"
+                    style="?android:attr/progressBarStyleHorizontal" />
+
+                <TextView
+                    android:id="@+id/levelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Level: 1"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:gravity="right"
+                tools:ignore="RtlHardcoded">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userProfileIv"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/user" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Enter Task Name"
+            android:iconifiedByDefault="false"
+            android:layout_margin="5dp"
+            android:id="@+id/searchview"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taskListRv"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_baseline_add_task_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/addTaskFAB"
+
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_tavern_foreground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="175dp"
+        android:id="@+id/tavernFAB"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic__achivements"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="310dp"
+        android:id="@+id/achievementsFAB"
+        tools:ignore="ContentDescription" />
+
+
+
+</RelativeLayout>

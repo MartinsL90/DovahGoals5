@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tips_and_tricks">Hello there Fella!!</string>
+    <string name="hello">Hello Fella!!</string>
+    <string name="goblin">1 - Break Tasks Into Smaller Steps Large tasks can feel overwhelming. Divide them into smaller, manageable chunks and focus on one step at a time. There is a powerfull goblin magic in https://goblin.tools/</string>
+    <string name="the_doppelganger">2 - Use Body Doubling, this is a good doppelganger usage. You can do either in person or in another helm (virtually, like YT). The presence of another person can help you stay on track and increase focus.</string>
+</resources>

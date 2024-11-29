@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177030337207",
+    "project_id": "dovahgoals",
+    "storage_bucket": "dovahgoals.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177030337207:android:9a7cbc2e1992fc70083332",
+        "android_client_info": {
+          "package_name": "com.example.dovahgoals5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177030337207-pn7u7tncgfcsj7s13civ0ii8l18pks9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dovahgoals5",
+            "certificate_hash": "04c863aae80104164726f78556f43f5e98cf0f23"
+          }
+        },
+        {
+          "client_id": "177030337207-5hgutfg9mat3mbqghgu2r1htugfi15r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLWJXQ6u1XmIzBm8ujUUYUOiOJxS_5qro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177030337207-5hgutfg9mat3mbqghgu2r1htugfi15r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

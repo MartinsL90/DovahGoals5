@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DovahGoals5</string>
+    <string name="default_web_client_id">177030337207-5hgutfg9mat3mbqghgu2r1htugfi15r8.apps.googleusercontent.com</string>
+    <string name="task_successfully_saved">Quest Successfully Saved!</string>
+    <string name="save_task">Save Task</string>
+    <string name="add_task">Add Task</string>
+    <string name="todo">TODO</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="delete">Delete</string>
+    <string name="welcome">Welcome!</string>
+    <string name="explain">Just wanted to give you some tips on dealing with those quest there.</string>
+    <string name="support">3 - Seek Support if you are having a challenge against curses.\nDon’t be afraid to ask for help from a friends, family, support groups or professionals.</string>
+</resources>
